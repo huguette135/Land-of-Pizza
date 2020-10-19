@@ -1,3 +1,12 @@
+.nav {
+    float: left;
+      
+}
+li {
+    display: inline;
+    margin-left: 20%;
+
+}
 
 header{
     background-image:url(background.jpg);
@@ -15,9 +24,4 @@ header .first-image {
 header .welcome {
     text-align: center;
     margin-top: 4%;
-}
-.nav {
-    float: left;
-    display: inline;
-    margin-top: 20%;
 }
