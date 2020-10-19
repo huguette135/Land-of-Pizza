@@ -16,3 +16,8 @@ header .welcome {
     text-align: center;
     margin-top: 4%;
 }
+.nav {
+    float: left;
+    display: inline;
+    margin-top: 20%;
+}
