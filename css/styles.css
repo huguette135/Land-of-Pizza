@@ -21,3 +21,20 @@ nav a {
     text-decoration:none ;
     color: white;
 }
+.header{
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     height:80vh; 
+     /* height: 50%;  */
+    padding-bottom: 15%;
+    color:white;
+}
+header .first-image {
+    margin-top: 10%;
+    margin-left: 47%;
+}
+header .welcome {
+    text-align: center;
+    margin-top: 6%;
+}
