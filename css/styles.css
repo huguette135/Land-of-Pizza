@@ -1,1 +1,23 @@
 
+h1{
+    margin:200px;
+}
+nav {
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* background-color: teal; */
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 60px;
+
+}
+nav a {
+    text-decoration:none ;
+    color: white;
+}
