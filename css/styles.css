@@ -38,3 +38,10 @@ header .welcome {
     text-align: center;
     margin-top: 6%;
 }
+.menu {
+    margin-bottom: 5%;
+}
+.menu .row .col-md-3 .images img {
+    width: 100%;
+    padding-right: 5%;
+}
