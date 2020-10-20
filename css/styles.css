@@ -52,3 +52,40 @@ header .welcome {
 #list li {
     font-size: 24px;
     font-family: system-ui, serif;
+}
+.menu .col-md-3 .pizza-card img {
+    width: 100%;
+    border: 2px solid red;
+}
+.menu .pizza-card {
+    position: relative;
+    /* width: 50%; */
+}
+.menu .pizza-card #images-size {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 260px;
+    transition: .5s ease;
+    backface-visibility: hidden;    
+}
+.menu .pizza-card .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.menu .pizza-card .middle .btn-primary{ 
+    border-radius: 0px;
+    background-color: white;
+    color: #444455;
+    border: 1px solid white;
+}
+.menu .pizza-card:hover .image {
+    opacity: 0.3;
+    background-color: black;
+}
