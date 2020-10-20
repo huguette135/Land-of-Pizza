@@ -45,3 +45,10 @@ header .welcome {
     width: 100%;
     padding-right: 5%;
 }
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
