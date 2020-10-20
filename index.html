@@ -90,7 +90,28 @@
                         <label>Select Your favourite Toppings</label><br>
                         <select class="custom-select custom-select-md mb-3" id="toppings" required><br><br>
                             <option value="tomato">Tomato</option>
-                            <option value="onions">Onions</option>                       
+                            <option value="onions">Onions</option>
+                        </select>
+                        <label for="number">Number of Pizza's</label><br>
+                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required><br>
+
+                        <a href="#summary">
+                            <button type="submit" class="btn btn-success checkout" id="checkout">
+                                Checkout
+                            </button>
+                        </a>                        
+
+                    </form>
+
+                    <br>
+
+                    <div class="alert alert-success" id="output">
+                    </div>
+
+                </div>                
+                <div class="col-md-4"></div>
+                  
+            </div>                       
     
 
 
