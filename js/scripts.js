@@ -7,8 +7,8 @@ $(document).ready(function(){
         var totalAmount = pizza * number;
     
         $("#output").text("here is the total amount  "+ totalAmount);
-       
+       alert(totalAmount );
         
 
-    })
+    });
 })
