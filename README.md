@@ -4,7 +4,7 @@ UMUTONI Huguette
 
 
 ## Description
-a web application where the customers order different sizes of pizzas with one or more toppings. 
+a web application where the customers order different sizes of pizza with one or more toppings and crust. 
 
 ## Setup/Installation Requirements
 visual studio and Browser
